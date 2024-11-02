@@ -102,6 +102,3 @@ log_text.tag_configure("error", foreground="red", font=("TkDefaultFont", 10, "bo
 #Run The Downloader
 root.after(100, lambda:download_sheets(Default_Access_Token, Default_Sheet_IDs, progress_var, log_text))
 root.mainloop()
-
-# if __name__ == '__main__':
-#     download_sheets(Default_Access_Token, Default_Sheet_IDs)
