@@ -8,8 +8,8 @@ from datetime import datetime
 import tkinter as tk
 from tkinter import ttk
 #Default Values
-Default_Access_Token = 'vfXcsth4M6hkyhdchYkIYh6nSYhXSKEl6fSso'
-Default_Sheet_IDs = ['7jxmF9H6M7r33Q5VFRMqX832c4q2CHpJqJ82WR21', 'PjJv8993phfj5WxpqgX62cRfJWF9wfW76f7m62C1']
+Default_Access_Token = 'YOUR SMARTSHEET ACCESS TOKEN'
+Default_Sheet_IDs = ['YOUR SMARTSHEET ID 1', 'YOUR SMARTSHEET ID 2']
 
 def log_message(log_text, message, tag="normal"): 
     log_text.insert(tk.END, message + "\n", tag)
